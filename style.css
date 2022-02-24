@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body header {
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e9f8f0), to(#739d83));
+  background: linear-gradient(180deg, #e9f8f0, #739d83);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 5s ease infinite;
+          animation: AnimationName 5s ease infinite;
+  top: 0;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 51% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 51% 0%;
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 51% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 51% 0%;
+  }
+}
+
+body header .cajaBoton {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 100px;
+}
+
+body header .cajaBoton #boton {
+  margin: 0 10px;
+  height: 20px;
+  color: #4d5351;
+}
+
+body header .cajaLogo {
+  margin: 0;
+  padding: 0;
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .cajaLogo #cajaF {
+  aspect-ratio: 1 / 1;
+  width: auto;
+  height: 100%;
+  background: #344746;
+  border-radius: 0 5rem 5rem 0;
+}
+
+body header .cajaLogo #cajaR {
+  width: 60%;
+  height: 100%;
+  background: #344746;
+}
+
+body header .cajaLogo #logo {
+  width: auto;
+  height: 100%;
+  background: #344746;
+}
+
+body header .cajaLogo #cajaL {
+  width: 100%;
+  height: 100%;
+  background: #344746;
+}
+
+body .banerContenedor {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url();
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(https://lh3.googleusercontent.com/oDzro8fQ-F85OSX2uEjTXOf4IfTz1zl7CBvqFut9zO5TtvwiLLsTbV_QC4l7OC1rOwcW4iijSiqWwE4GoA6XFg3to8udiOFifWsFJxR2LgDUsLsh8cSjAuQCZOHLP9W_KIFxJWyY_djXVhDfvm5hQRFNItaxpe5Xcms0_T5Rdt_jZ4l4bTPR3SUFvpdycwq2qJjEnpZopSBVMH1u68D04xFhKLiks9H47z9fbhIZtjZBGAYEGJtP3b_0d4OA4B2pmgGBPmS_DmZZq1gCamI1PmqW1Qx9wvlssx0vab4CxkMGAZrOy4OpSFJY5UZ5RE87lesXAnHmHh6WUQFhw_cvR5gIfVkI8qYwKS8rI693bxlbponperV7IOTaPHp9K1SbvoReOv61V-lzYq3t63w4HK-sSB5vlpH3Vi26qN6-w0Qfx9OlJwr1zbQP9A9-1ybbs2CmVXE_n9laK4LWr-JObdRkMyzOGOs452thQeW6Ve9cxgRMUXMNwNoYadIk8lC-Rdc6H2Sf0mRoLvlzxW_qwGwD5wHgbULWHLVD5_6qLa4RXUjcRhkoJNyu-OQWhsz2EXRBsQmiwuR6wzcDkyKHaflD3iHkpSi0WE3_Zdd-fxhnsEwVqWX-qbcInrovUU4unl_4GD5O5ZALGo_CFGz7Y0XQEBZEvDsAAh_ECmlb6eoQ-CKhlrhrlmrsyazCnp59fuux2TzRkOJ5mGuXv5nDSEM=w1920-h160-no?authuser=0);
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-top: 50px;
+}
+
+body .banerContenedor #tituloBack0 {
+  aspect-ratio: 1 / 1;
+  width: auto;
+  height: 100%;
+  background: linear-gradient(91deg, rgba(255, 255, 255, 0.3), #ffffff);
+  border-radius: 50% 0 0 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .banerContenedor #tituloBack0 #titulo {
+  width: 70%;
+  height: auto;
+}
+
+body .banerContenedor #tituloBack1 {
+  width: 10%;
+  height: 100%;
+  background: white;
+}
+
+body .banerContenedor .imgBaner {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  z-index: -5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+body .banerContenedor .imgBaner #baner {
+  background: blue;
+  height: 100%;
+}
+
+body .mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #344746;
+  padding: 10px 0;
+}
+
+body .mail #mailInput {
+  margin-left: 20px;
+  width: 300px;
+  border-radius: 1.5rem;
+  border-style: none;
+  padding: 5px 15px;
+  font-size: 15px;
+}
+
+body .mail #mailText {
+  margin-right: 20px;
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+  color: #d4d4d4;
+}
+
+body #waveA1Up {
+  position: relative;
+  bottom: -20px;
+  z-index: -1;
+}
+
+body .articulo1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #e9f8f0;
+}
+
+body .articulo1 #imgA1 {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+body .articulo1 #textoA1 {
+  width: 30%;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #4d5351;
+}
+
+body .articulo1 #textoA1 #leerMasA1 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: white;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+          box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  padding: 5px 15px;
+  border-radius: 1.5rem;
+  margin-top: 40px;
+  margin-left: 20px;
+  color: #3d7761;
+}
+
+body .articulo2 {
+  margin: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .articulo2 #imgA2 {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+body .articulo2 #textoA2 {
+  width: 30%;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #4d5351;
+}
+
+body .articulo2 #textoA2 #leerMasA2 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: white;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+          box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  padding: 5px 15px;
+  border-radius: 1.5rem;
+  margin-top: 40px;
+  margin-left: 20px;
+  color: #3d7761;
+}
+
+body #waveA3Up {
+  position: relative;
+  bottom: -20px;
+  z-index: -1;
+}
+
+body .articulo3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #e9f8f0;
+}
+
+body .articulo3 #imgA3 {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+body .articulo3 #textoA3 {
+  margin-top: 100px;
+  width: 75%;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #4d5351;
+}
+
+body .articulo3 #textoA3 #leerMasA3 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: white;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+          box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  padding: 5px 15px;
+  border-radius: 1.5rem;
+  margin-top: 40px;
+  margin-left: 20px;
+  color: #3d7761;
+}
